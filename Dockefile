@@ -1,2 +1,2 @@
-From nginx:alphine
-WORKDIR /usr/share/nginx/html
+From nginx
+COPY index.html /usr/share/nginx/html
